@@ -15,7 +15,7 @@ public class CameraFollow : MonoBehaviour
 	}
 	//using lateUpdate prevents lag
     //lateUpdate is the last function called on the game
-	void lateUpdate ()
+	void LateUpdate ()
     {
         transform.position = player.transform.position + offset;
 	}
